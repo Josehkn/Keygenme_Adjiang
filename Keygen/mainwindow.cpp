@@ -28,7 +28,7 @@ void MainWindow::on_Generate_clicked()
 
 void MainWindow::on_About_clicked()
 {
-    QMessageBox message(QMessageBox::Information, QObject::tr("About"), QObject::tr("Le dedico este keygen a pu\n Y un especial agradecimiento a JoeCracker y Apuromafo; que con sus palabras y ánimos"));
+    QMessageBox message(QMessageBox::Information, QObject::tr("About"), QObject::tr("Le dedico este keygen a pu\n\n Y un especial agradecimiento a JoeCracker y Apuromafo; que con sus palabras y ánimos no hubiese sido posible esto\n\nY a toda la comunidad CracksLatinos."));
 
     message.setIconPixmap(QPixmap(":/po/poro.jpg"));
     message.addButton(QMessageBox::Close);
